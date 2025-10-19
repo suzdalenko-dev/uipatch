@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Documentor",
+  "Type": "Screen",
+  "Id": "_NXVTCcmTE2K7u8mxMzf3Q",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/_NXVTCcmTE2K7u8mxMzf3Q",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/oXZEcdtkh0WEjNTmqEjr9w",
+  "Created": "2025-10-19T20:30:57.0109564Z",
+  "Updated": "2025-10-19T20:30:57.0109564Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

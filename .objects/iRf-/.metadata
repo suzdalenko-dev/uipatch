@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Documentor",
+  "Type": "App",
+  "Id": "iRf-DWDu_EaIgKx2qXD6-A",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/iRf-DWDu_EaIgKx2qXD6-A",
+  "Created": "2025-10-19T20:30:56.9166825Z",
+  "Updated": "2025-10-19T20:30:56.9166825Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

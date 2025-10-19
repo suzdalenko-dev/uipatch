@@ -1,0 +1,6 @@
+{
+  "Name": "workInDocumentor",
+  "ProjectType": "Process",
+  "Description": "workInDocumentor",
+  "MainFile": "Main.xaml"
+}

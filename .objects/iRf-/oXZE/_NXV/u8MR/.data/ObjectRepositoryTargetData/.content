@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hFmQTNA7C02lF2F8nWOwPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1" CVScreenId="1fcb5ddc-489a-483e-ae47-d123b8887d49" CvElementArea="543, 473, 388, 39" CvTextArea="718, 486, 40, 13" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="546, 475, 384, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" Guid="369aeb61-0d59-4ff7-bab0-421ac8372c96" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Documentor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e9b1c0f6f840da6fe6c86d668d720902.png" xmlns="">0WE5bKSjh606gO0SSIiva9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

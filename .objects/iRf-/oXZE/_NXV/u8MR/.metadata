@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Entrar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "u8MREKMP5kK759cWZAcUvQ",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/u8MREKMP5kK759cWZAcUvQ",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/_NXVTCcmTE2K7u8mxMzf3Q",
+  "Created": "2025-10-19T21:01:25.9137412Z",
+  "Updated": "2025-10-19T21:01:25.9137412Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

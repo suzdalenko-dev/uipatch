@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="70d1Mg8Ej0GmkgslUkABgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1" CVScreenId="77edfa60-3255-4dbe-b395-de43997bb7f2" CvElementArea="543, 412, 389, 39" CvType="InputBox" DesignTimeRectangle="546, 415, 384, 36" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6' aaname='Contraseña' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="279de102-f721-40ea-8f08-d81c8ff3a467" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Documentor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="77edfa60-3255-4dbe-b395-de43997bb7f2" CvTextArea="544, 388, 74, 13" CvTextArgument="Contraseña" CvType="Text" DesignTimeRectangle="546, 383, 71, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='divEmail' tag='LABEL' type='' class='block text-sm/6 font-medium text-gray-900' aaname='Contraseña' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Contraseña' /&gt;" Guid="64abf80b-596d-43d2-ad78-3ecc43a667bc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ce78259a3f7d416906b05f8c4d059238.png" xmlns="">06I5DTAM8TkuYdIwafvl7Zg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
