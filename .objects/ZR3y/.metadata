@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Crear nuevo documento",
+  "Type": "App",
+  "Id": "ZR3yhv-nmEmDbMBxRh7q2g",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/ZR3yhv-nmEmDbMBxRh7q2g",
+  "Created": "2025-10-24T16:39:09.0178925Z",
+  "Updated": "2025-10-24T16:39:09.0178925Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

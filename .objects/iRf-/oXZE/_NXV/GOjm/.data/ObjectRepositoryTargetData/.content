@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="srxTNBazc0G-Tv-mXmnuzw" Reference="RfgVocmGPU6d5pBh7pC9rw/GOjm1kBCUk-Qto2xraNQxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1" CVScreenId="df969e6f-a341-4008-a7f8-0c6c62f3ed16" CvElementArea="239, 430, 388, 38" CvTextArea="388, 441, 89, 17" CvTextArgument="Enviar código" CvType="Button" DesignTimeRectangle="374, 431, 384, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='divSentEmailCode' tag='INPUT' type='button' /&gt;" Guid="243d7216-897e-4667-a0e4-39ea687bdefa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Documentor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="aa3a176a2e22ec5fc4485047bb093d84.png" xmlns="">0ZqkwwRDQzUmSE7NcmxiRCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

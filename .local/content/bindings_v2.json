@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Get IMAP Email List",
+      "activityId": "GetIMAPMailMessages_1",
+      "resource": "Connection",
+      "key": "214fe6a0-fac0-4a70-b967-914b5a2e987f",
+      "id": "Connection214fe6a0-fac0-4a70-b967-914b5a2e987f214fe6a0-fac0-4a70-b967-914b5a2e987fFalse",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "214fe6a0-fac0-4a70-b967-914b5a2e987f",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.1",
+        "UseConnectionService": "True",
+        "Connector": "uipath-mail-mail"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yputdt8OPkeiuT_Syr3_kg" Reference="RfgVocmGPU6d5pBh7pC9rw/oLQ53-cDVEu5pvqw0JigVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1" DesignTimeRectangle="8, 127, 1116, 388" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' /&gt;" Guid="3944e443-1aff-4dcd-a2ab-f0c261858c0a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Documentor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4b6780dff553096fb9768ca99e26e04d.png" xmlns="">0T9dYm_jzF024L5OMhNeS5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

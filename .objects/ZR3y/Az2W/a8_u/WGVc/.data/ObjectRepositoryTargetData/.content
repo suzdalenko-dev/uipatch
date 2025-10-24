@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n5traArO2kmjHK6IxUOxpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1/dashboard" CVScreenId="da1e9fb9-aea2-4bc2-b0cd-97c61b72daef" CvTextArea="83, 175, 109, 12" CvTextArgument="Nuevo documento" CvType="Text" DesignTimeRectangle="84, 172, 108, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='text-black' parentid='menu-documentos' tag='SPAN' /&gt;" Guid="48afddac-126d-4403-b498-50209c1e57d5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Crear nuevo documento' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eb1c01e8795d15730c25ebd547301ba7.png" xmlns="">0cgKpWcBhL0aRm8v1mFlC4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

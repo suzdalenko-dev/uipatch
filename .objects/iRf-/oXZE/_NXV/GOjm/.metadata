@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button 'Enviar código'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "GOjm1kBCUk-Qto2xraNQxg",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/GOjm1kBCUk-Qto2xraNQxg",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/_NXVTCcmTE2K7u8mxMzf3Q",
+  "Created": "2025-10-24T15:23:16.8847299Z",
+  "Updated": "2025-10-24T15:23:16.8847299Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
