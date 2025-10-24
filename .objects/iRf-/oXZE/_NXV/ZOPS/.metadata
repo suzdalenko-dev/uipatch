@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Input 'Introduzca el código qu…'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ZOPSzDlaYk-RPI9beg7thg",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/ZOPSzDlaYk-RPI9beg7thg",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/_NXVTCcmTE2K7u8mxMzf3Q",
+  "Created": "2025-10-24T10:23:05.3908441Z",
+  "Updated": "2025-10-24T10:23:05.3908441Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
