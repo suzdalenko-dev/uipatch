@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Abrir",
+  "Type": "App",
+  "Id": "6r9gwRjXrUalGG_PBd19qA",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/6r9gwRjXrUalGG_PBd19qA",
+  "Created": "2025-10-24T21:39:21.3673099Z",
+  "Updated": "2025-10-24T21:39:21.3673099Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

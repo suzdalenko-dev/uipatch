@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JaMGIlzeykub73hVu3LHUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1/dashboard" CVScreenId="8128f403-7ce2-4c38-8c94-557a8863cd3f" CvTextArea="60, 173, 132, 16" CvTextArgument="+ Nuevo documento" CvType="Text" DesignTimeRectangle="54, 168, 149, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='menu-documentos' tag='A' /&gt;" Guid="9016332a-a152-4f70-9f33-72fccd139e77" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Crear nuevo documento' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8128f403-7ce2-4c38-8c94-557a8863cd3f" CvTextArea="83, 175, 109, 12" CvTextArgument="Nuevo documento" CvType="Text" DesignTimeRectangle="84, 172, 108, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='text-black' parentid='menu-documentos' tag='SPAN' type='' aaname='Nuevo documento' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Nuevo documento' /&gt;" Guid="6abc4043-3095-42ff-b50b-2a2471c5b5e3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="15d8fbe722f030fbfdc3b3c4c49d7864.png" xmlns="">0yYfQVyxnhESnV6ZvrmTy9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

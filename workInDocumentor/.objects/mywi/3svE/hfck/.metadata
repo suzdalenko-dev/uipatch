@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Filtrar documentos",
+  "Type": "Screen",
+  "Id": "hfckA-CVDECN5XLutt1QNg",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/hfckA-CVDECN5XLutt1QNg",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/3svEaEWXf0ektN8C_YfCMg",
+  "Created": "2025-10-24T19:51:50.1821484Z",
+  "Updated": "2025-10-24T19:51:50.1821484Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

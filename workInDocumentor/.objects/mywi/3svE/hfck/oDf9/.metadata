@@ -1,0 +1,14 @@
+﻿{
+  "Name": "➕ Nuevo documento",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oDf9LsLQMkaOPJu2qe788Q",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/oDf9LsLQMkaOPJu2qe788Q",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/hfckA-CVDECN5XLutt1QNg",
+  "Created": "2025-10-24T19:53:02.1721717Z",
+  "Updated": "2025-10-24T19:53:02.1721717Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

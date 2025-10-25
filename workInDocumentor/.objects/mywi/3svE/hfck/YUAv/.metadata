@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Archivos",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "YUAvM-3VfUyT43vVKdvrfA",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/YUAvM-3VfUyT43vVKdvrfA",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/hfckA-CVDECN5XLutt1QNg",
+  "Created": "2025-10-24T21:15:16.4668586Z",
+  "Updated": "2025-10-24T21:15:16.4668586Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

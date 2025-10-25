@@ -1,0 +1,13 @@
+﻿{
+  "Name": "_DOWNLOAD_",
+  "Type": "Screen",
+  "Id": "bO-6xU_cdkO9C3fzb6UHog",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/bO-6xU_cdkO9C3fzb6UHog",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/LSvPPj3hRE2qEi3Nw6Hhsw",
+  "Created": "2025-10-24T21:31:14.571939Z",
+  "Updated": "2025-10-24T21:31:14.571939Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

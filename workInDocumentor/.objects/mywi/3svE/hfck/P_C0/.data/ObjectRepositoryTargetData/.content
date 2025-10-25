@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v7TvrvxXeEaLJ0Z1KPwN-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1/dashboard" CVScreenId="f9a976c1-d4b2-4edc-876f-08c81c75afd0" CvElementArea="240, 241, 857, 68" CvType="InputBox" DesignTimeRectangle="242, 242, 856, 67" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='doc_description' tag='TEXTAREA' type='' class='w-full border rounded px-2 py-1' placeholder='Breve descripción del documento...' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2165077b-7cf2-48a0-99cd-323dcf370fae" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Crear nuevo documento' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f9a976c1-d4b2-4edc-876f-08c81c75afd0" CvTextArea="240, 222, 71, 14" CvTextArgument="Descripción" CvType="Text" DesignTimeRectangle="242, 222, 856, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Descripción' tag='LABEL' type='' class='block text-sm font-medium mb-1' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Descripción' /&gt;" Guid="df546dab-e40a-4ed2-a1b3-92e069df1c27" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="308b8fdc2c52b7dec08338951844b69d.png" xmlns="">0d3S0hDAdn0CaAw0BU-DZAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

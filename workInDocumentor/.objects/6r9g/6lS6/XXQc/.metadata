@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Abrir",
+  "Type": "Screen",
+  "Id": "XXQcgaHOJEKeCppSryypHg",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/XXQcgaHOJEKeCppSryypHg",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/6lS68YMlCU-07wTxlnWDhQ",
+  "Created": "2025-10-24T21:39:21.3993123Z",
+  "Updated": "2025-10-24T21:39:21.3993123Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

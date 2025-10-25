@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sUoQD1S0lUuJHDlUv_aWSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1/dashboard" DesignTimeRectangle="242, 409, 856, 25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='doc_file' tag='INPUT' type='file' class='block w-full text-sm text-gray-700 border border-gray-300 rounded cursor-pointer focus:outline-none' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7b6e7b23-9076-4d59-a18f-ae4652f5dd72" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Crear nuevo documento' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="833b0c2a-7dfd-44c6-a50c-9ed1c73ba800" CvTextArea="240, 391, 52, 11" CvTextArgument="Archivos" CvType="Text" DesignTimeRectangle="242, 390, 856, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Archivos' tag='LABEL' type='' class='block text-sm font-medium mb-1' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Archivos' /&gt;" Guid="15a15812-3cfa-493c-aa78-2b74566c941e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7114b624387e06016b19915e9953920a.png" xmlns="">05D0WHFj-EkWYB5E-drCV7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

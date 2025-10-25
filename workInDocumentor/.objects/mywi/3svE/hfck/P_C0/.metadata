@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Descripción",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "P_C0ARcnY0-jkWgSi_WC_Q",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/P_C0ARcnY0-jkWgSi_WC_Q",
+  "ParentRef": "RfgVocmGPU6d5pBh7pC9rw/hfckA-CVDECN5XLutt1QNg",
+  "Created": "2025-10-24T20:46:37.2669191Z",
+  "Updated": "2025-10-24T20:46:37.2669191Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

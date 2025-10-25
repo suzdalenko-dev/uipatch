@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Filtrar documentos",
+  "Type": "App",
+  "Id": "mywi8blmbUW5s5nOg2izvA",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/mywi8blmbUW5s5nOg2izvA",
+  "Created": "2025-10-24T19:51:50.1551895Z",
+  "Updated": "2025-10-24T19:51:50.1551895Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

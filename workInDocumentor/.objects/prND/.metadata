@@ -1,0 +1,12 @@
+﻿{
+  "Name": "_DOWNLOAD_",
+  "Type": "App",
+  "Id": "prND0qom80KzOGSaYl10bg",
+  "Reference": "RfgVocmGPU6d5pBh7pC9rw/prND0qom80KzOGSaYl10bg",
+  "Created": "2025-10-24T21:31:14.5530532Z",
+  "Updated": "2025-10-24T21:31:14.5530532Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
