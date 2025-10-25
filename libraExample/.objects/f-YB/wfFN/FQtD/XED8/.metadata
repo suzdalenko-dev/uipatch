@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Input 'Clave'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "XED8cYCnt0e38WE_eFGZtA",
+  "Reference": "htGQ19BtuUeQBFJbFbDI3A/XED8cYCnt0e38WE_eFGZtA",
+  "ParentRef": "htGQ19BtuUeQBFJbFbDI3A/FQtDt8SANkeKmtKUa6cwRw",
+  "Created": "2025-10-25T16:33:07.0646152Z",
+  "Updated": "2025-10-25T16:33:07.0646152Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

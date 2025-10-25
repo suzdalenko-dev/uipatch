@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RqOsXFqAhk2R5F0OiXxjxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 89, 1638, 856" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Validación de usuario. Usuario de S.O.: alexei - PC-131' role='internal frame' /&gt;&lt;java cls='Graphics2dRenderWidget' role='AWT component' /&gt;" Guid="7ed02726-c74a-4092-94a6-1e99ac4d0366" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c2b7451f806f91e4fadbe7d0a9c01142.png" xmlns="">0dD_R72xLWkeuqqD1VVGy8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

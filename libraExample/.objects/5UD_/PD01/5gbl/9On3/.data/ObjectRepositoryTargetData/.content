@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uj9zRRLxckaXVPz2v9f3ow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="99926fe9-a2d0-4555-ac31-e0fb593bfbef" CvElementArea="189, 5, 100, 69" CvType="Button" DesignTimeRectangle="192, 5, 96, 69" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='SysListView32' title='FolderView' /&gt;&lt;ctrl name='Escritorio' role='list' /&gt;&lt;ctrl name='LIBRA PRODUCCION 1' role='list item' /&gt;" Guid="3ce5dda9-e1b5-40de-81fe-baf2718e9c06" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='Progman' title='Program Manager' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="18c3a434d7bc20f78be4738462c8fb55.png" xmlns="">0BJPFmdqmo0SXpfolHQbw2Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

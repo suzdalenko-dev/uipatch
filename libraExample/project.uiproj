@@ -1,0 +1,6 @@
+{
+  "Name": "libraExample",
+  "ProjectType": "Process",
+  "Description": "libraExample",
+  "MainFile": "Main.xaml"
+}

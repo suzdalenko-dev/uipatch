@@ -1,0 +1,13 @@
+﻿{
+  "Name": "LIBRA EDISA  (Certificado autofirmado - Certi",
+  "Type": "Screen",
+  "Id": "FQtDt8SANkeKmtKUa6cwRw",
+  "Reference": "htGQ19BtuUeQBFJbFbDI3A/FQtDt8SANkeKmtKUa6cwRw",
+  "ParentRef": "htGQ19BtuUeQBFJbFbDI3A/wfFNk1heekigDc658RQPTw",
+  "Created": "2025-10-25T16:07:17.4136955Z",
+  "Updated": "2025-10-25T16:07:17.4136955Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YDxrGiM8J0SCJ8CClqUB7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5532cd9e-ffb2-48e3-94a5-8a6b8ac5b685" CvElementArea="1514, 905, 391, 44" CvTextArea="1541, 918, 135, 18" CvTextArgument="Menús por perfiles" CvType="Button" DesignTimeRectangle="1514, 906, 392, 44" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="6ee74407-e846-422d-8fe1-82cef1ba22c1" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2de40a5f86fac22744515d057da1f212.png" xmlns="">0pzfLrbYphUq8ePa0h533qg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

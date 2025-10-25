@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'LIBRA PRODUCCION 1'",
+  "Type": "Element",
+  "Id": "9On3_6Jpz0ied2m8xBTZDg",
+  "Reference": "htGQ19BtuUeQBFJbFbDI3A/9On3_6Jpz0ied2m8xBTZDg",
+  "ParentRef": "htGQ19BtuUeQBFJbFbDI3A/5gblLeJf006iuWYTkDQOoA",
+  "Created": "2025-10-25T15:41:59.8931061Z",
+  "Updated": "2025-10-25T15:41:59.8931061Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

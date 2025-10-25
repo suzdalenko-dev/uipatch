@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XF0q0wEN0kG7WLqUCzSjyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1512, 100, 400, 916" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java cls='Graphics2dRenderWidget' idx='2' role='AWT component' /&gt;" Guid="7e8c334a-d984-4d8b-aa9a-2f3f42322852" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="55a10ddfd380beeaecd414c918319cf6.png" xmlns="">0UqZWy9jelk6lGorFmD4obA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

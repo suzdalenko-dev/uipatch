@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'Buscar...'",
+  "Type": "Element",
+  "Id": "LXYf2t59YkeGa-yogxRV1w",
+  "Reference": "htGQ19BtuUeQBFJbFbDI3A/LXYf2t59YkeGa-yogxRV1w",
+  "ParentRef": "htGQ19BtuUeQBFJbFbDI3A/M0YfZTcd4EqpBrgzW_bPZw",
+  "Created": "2025-10-25T17:28:41.1115385Z",
+  "Updated": "2025-10-25T17:28:41.1115385Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

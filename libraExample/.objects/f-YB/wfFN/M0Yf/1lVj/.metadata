@@ -1,0 +1,13 @@
+﻿{
+  "Name": "panel",
+  "Type": "Element",
+  "Id": "1lVjP30nUEKmk39JhihJ0A",
+  "Reference": "htGQ19BtuUeQBFJbFbDI3A/1lVjP30nUEKmk39JhihJ0A",
+  "ParentRef": "htGQ19BtuUeQBFJbFbDI3A/M0YfZTcd4EqpBrgzW_bPZw",
+  "Created": "2025-10-25T17:57:38.3277072Z",
+  "Updated": "2025-10-25T17:57:38.3277072Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
