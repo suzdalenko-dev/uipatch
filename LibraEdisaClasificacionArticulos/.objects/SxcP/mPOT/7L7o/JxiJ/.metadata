@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Número Tabla",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "JxiJPg58TkezoduB2iAYvw",
+  "Reference": "N6Q_bT1QBEGSoqD2MZ_FNA/JxiJPg58TkezoduB2iAYvw",
+  "ParentRef": "N6Q_bT1QBEGSoqD2MZ_FNA/7L7o9oTRUEiSQM1E-jT0Zg",
+  "Created": "2025-10-29T21:11:16.8907469Z",
+  "Updated": "2025-10-29T21:11:16.8907469Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "FROXA - v6.2.1.6.4.7(1)",
+  "Type": "Screen",
+  "Id": "UyRC6cBYOk2sQSjaX8Pn7g",
+  "Reference": "N6Q_bT1QBEGSoqD2MZ_FNA/UyRC6cBYOk2sQSjaX8Pn7g",
+  "ParentRef": "N6Q_bT1QBEGSoqD2MZ_FNA/mPOTy3S3TUCdh9dLN02t_Q",
+  "Created": "2025-10-29T16:08:29.8985937Z",
+  "Updated": "2025-10-29T16:08:29.8985937Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,6 +1,0 @@
-{
-  "Name": "GmailReader",
-  "ProjectType": "Process",
-  "Description": "GMAILReader",
-  "MainFile": "Main.xaml"
-}

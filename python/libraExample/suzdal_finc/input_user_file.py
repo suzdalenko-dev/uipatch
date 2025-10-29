@@ -31,8 +31,10 @@ def input_login():
     # 3️⃣ Buscar campo 'Clave'
     print("[INFO] Buscando campo 'Clave'...")
     clave_field = None
-    for _ in range(10):
-        clave_field = pyautogui.locateCenterOnScreen("img/login_clave.png", confidence=0.8)
+    confidence = 1.0
+    for _ in range(40):
+        clave_field = pyautogui.locateCenterOnScreen("img/login_clave.png", confidence=confidence)
+        confidence  = confidence - 0.1
         if clave_field:
             break
         time.sleep(0.5)
@@ -43,7 +45,7 @@ def input_login():
     else:
         pyautogui.click(clave_field)
 
-    pyautogui.typewrite("", interval=0.1)  # 🔒 tu contraseña real
+    pyautogui.typewrite("svoboda2019A.", interval=0.1)  # 🔒 tu contraseña real
     print("[OK] Clave escrita correctamente.")
 
     # 4️⃣ Buscar botón “Acceder”

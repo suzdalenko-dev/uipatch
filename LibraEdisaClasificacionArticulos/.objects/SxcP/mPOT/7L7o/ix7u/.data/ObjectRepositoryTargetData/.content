@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VqOGyH1Y-U2bh0KifTCNGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="58, 276, 141, 21" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' /&gt;&lt;java name='Froxa Familias Art' role='page tab' /&gt;&lt;java idx='5' name='Número Tabla Necesario' role='text' /&gt;" Guid="5bd5bcf5-949c-4f3e-a0b6-9bc131a4c635" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="06d28d23ea525b4436267734073b13bf.png" xmlns="">0-iKV6gQr3EeQRuUf4z793w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

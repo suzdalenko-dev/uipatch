@@ -1,0 +1,12 @@
+﻿{
+  "Name": "LIBRA EDISA  (Certificado autofirmado - Certificado no se corresponde con el domin",
+  "Type": "App",
+  "Id": "SxcPLGC1HkGCm_MDvFjfvA",
+  "Reference": "N6Q_bT1QBEGSoqD2MZ_FNA/SxcPLGC1HkGCm_MDvFjfvA",
+  "Created": "2025-10-27T21:26:48.6510901Z",
+  "Updated": "2025-10-27T21:26:48.6510901Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Clasificación Artículos'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gzeHK4ZrrU6E279zGgl_yQ",
+  "Reference": "N6Q_bT1QBEGSoqD2MZ_FNA/gzeHK4ZrrU6E279zGgl_yQ",
+  "ParentRef": "N6Q_bT1QBEGSoqD2MZ_FNA/UyRC6cBYOk2sQSjaX8Pn7g",
+  "Created": "2025-10-29T16:08:57.354129Z",
+  "Updated": "2025-10-29T16:08:57.354129Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -10,28 +10,28 @@ from suzdal_finc.start_process_file import libra_start
 
 # Cerrar libra
 kill_process('Libra')
-delay(5)
-
-libra_start()
 delay(7)
 
+libra_start()
+delay(9)
+
 input_login()
-delay(5)
+delay(9)
 
 cerrar_notificaciones()
-delay(5)
+delay(9)
 
 click_buscar()
-delay(5)
+delay(9)
 
 click_por_imagen('menu_clasificacion_articulos.png')
-delay(5)
+delay(9)
 
 click_por_imagen('top_lupa.png')
-delay(5)
+delay(9)
 
 click_por_imagen('top_rallo.png')
-delay(5)
+delay(9)
 
 scroll_tabla_linea_a_linea()
-delay(5)
+delay(9)

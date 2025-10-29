@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Buscar...",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "syNV91g7q0GgaYo5VUDQZA",
+  "Reference": "htGQ19BtuUeQBFJbFbDI3A/syNV91g7q0GgaYo5VUDQZA",
+  "ParentRef": "htGQ19BtuUeQBFJbFbDI3A/SIgWhJs8WkyVBpJJq7_VLw",
+  "Created": "2025-10-27T20:29:45.6885007Z",
+  "Updated": "2025-10-27T20:29:45.6885007Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

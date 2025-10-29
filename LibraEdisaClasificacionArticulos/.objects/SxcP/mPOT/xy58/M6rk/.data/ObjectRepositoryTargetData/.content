@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a9hLnNHOR06EgIl0F4r_qw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ebc97bd4-6283-4ef6-954a-b6feff708628" CvTextArea="1521, 271, 159, 15" CvTextArgument="Clasificación Artículos" CvType="Text" DesignTimeRectangle="1521, 271, 159, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="66438279-b94b-474c-97f2-4404cdbc94e7" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="028049b50326ba3315e53f9997490e5b.png" xmlns="">0HcEpBMz12Em_v3MCgOtSdg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,828 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="484.00000000000006,2190" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="currentValue" />
+      <Variable x:TypeArguments="x:Int32" Name="index">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" />
+        </Variable.Default>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">InterruptibleWhile_1</x:String>
+            <x:String x:Key="SourcePropertyName">CurrentIndex</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="Libra">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:KillProcess>
+    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="Delay_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </Delay>
+    <ui:StartProcess WorkingDirectory="{x:Null}" Arguments="-url https://libra.froxadom.local:443/forms/frmservlet?config=libra_saa -t 60000 -wlv 12.2.1.19.0 -idcrm BYPFC0CH7I -fs S -ww 0 -wh 0 -dpi 0" DisplayName="Start Process" FileName="C:\\Program Files\\Libra\\Libra.exe" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="StartProcess_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:StartProcess>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="LIBRA EDISA  (Certificado autofirmado - Certi" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7c6c4c47-82db-48a6-85c3-1a8c2d2fb8bf" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1418" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculadora'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7c6c4c47-82db-48a6-85c3-1a8c2d2fb8bf" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="WDJ9tG3TLUG0GGz2hHRktA" DesignTimeRectangle="8, 64, 1920, 1024" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="a04fc800-00b1-4fa6-ade6-0b4334afc2e3" InformativeScreenshot="50f8b0114fe00fc920ae1fcb916372a4.png" NativeTextArgument="Calculadora" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/SPwzLq2rC0GdI0TKcphDeA" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="TextNative" TargetType="NativeTextBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="47cb1009-a2bb-4f2f-8413-1e13f076e3d7" CvElementArea="1028, 683, 482, 42" CvType="InputBox" DesignTimeRectangle="1029, 681, 483, 43" ElementType="InputBox" Guid="92465d98-51ad-4dc4-817f-8e24de797ef9" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Label 'Label 'Calculadora''" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable ContentHash="08k8LSdqQ0m1Rub4kGjOuw" DesignTimeRectangle="8, 64, 1920, 1024" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="4eb61188-7df5-4fb4-b1e7-c7d1b4a035bf" InformativeScreenshot="50f8b0114fe00fc920ae1fcb916372a4.png" NativeTextArgument="Calculadora" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/3QQVY6c-kkGgolECaeB7ug" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="TextNative" TargetType="NativeTextBased" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="47cb1009-a2bb-4f2f-8413-1e13f076e3d7" CvElementArea="1028, 683, 482, 42" CvType="InputBox" DesignTimeRectangle="1029, 681, 483, 43" ElementType="InputBox" Guid="7eb79b78-5b33-40c2-90fd-8c9b2bc0e08c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Usuario'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="7c6c4c47-82db-48a6-85c3-1a8c2d2fb8bf" Text="alexey" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="47cb1009-a2bb-4f2f-8413-1e13f076e3d7" ContentHash="WYhN12cogkGpXWX4iFajvw" CvElementArea="1028, 683, 482, 42" CvType="InputBox" DesignTimeRectangle="1028, 683, 482, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="8b86f927-6ba6-4fbe-ad28-5620e43b605f" InformativeScreenshot="7442d6470b9a9f7a33ae502bc4052a29.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/diIgfl20CUqlD3ES73BgyA" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="47cb1009-a2bb-4f2f-8413-1e13f076e3d7" CvTextArea="1040, 694, 57, 15" CvTextArgument="Usuario" CvType="Text" DesignTimeRectangle="1040, 694, 57, 15" ElementType="Text" Guid="dda8d7de-1026-4fab-aef4-d27d27552770" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clave'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7c6c4c47-82db-48a6-85c3-1a8c2d2fb8bf" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="d9a35213-7697-4c68-9886-6d5270159837" ContentHash="GW2rg4lPZEyq4aXDu5JOTQ" CvElementArea="1020, 732, 483, 41" CvType="InputBox" DesignTimeRectangle="1021, 731, 482, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="37997cfe-8e6e-4840-a7a0-0f6bed4fc7b6" InformativeScreenshot="f3b24f7445df1f1366ca8f37c64d7465.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/23pc1SbZZEWpY6u7XSULfg" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d9a35213-7697-4c68-9886-6d5270159837" CvTextArea="1032, 741, 42, 15" CvTextArgument="Clave" CvType="Text" DesignTimeRectangle="1032, 740, 42, 18" ElementType="Text" Guid="1adb40ee-fee7-44f6-b790-26ec4ce85059" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Input 'Clave'" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable CVScreenId="d9a35213-7697-4c68-9886-6d5270159837" ContentHash="GW2rg4lPZEyq4aXDu5JOTQ" CvElementArea="1020, 732, 483, 41" CvType="InputBox" DesignTimeRectangle="1021, 731, 482, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="37997cfe-8e6e-4840-a7a0-0f6bed4fc7b6" InformativeScreenshot="f3b24f7445df1f1366ca8f37c64d7465.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/23pc1SbZZEWpY6u7XSULfg" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="d9a35213-7697-4c68-9886-6d5270159837" CvTextArea="1032, 741, 42, 15" CvTextArgument="Clave" CvType="Text" DesignTimeRectangle="1032, 740, 42, 18" ElementType="Text" Guid="1adb40ee-fee7-44f6-b790-26ec4ce85059" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Clave'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="7c6c4c47-82db-48a6-85c3-1a8c2d2fb8bf" Text="svoboda2019A." Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="d9a35213-7697-4c68-9886-6d5270159837" ContentHash="GW2rg4lPZEyq4aXDu5JOTQ" CvElementArea="1020, 732, 483, 41" CvType="InputBox" DesignTimeRectangle="1021, 731, 482, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="37997cfe-8e6e-4840-a7a0-0f6bed4fc7b6" InformativeScreenshot="f3b24f7445df1f1366ca8f37c64d7465.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/23pc1SbZZEWpY6u7XSULfg" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d9a35213-7697-4c68-9886-6d5270159837" CvTextArea="1032, 741, 42, 15" CvTextArgument="Clave" CvType="Text" DesignTimeRectangle="1032, 740, 42, 18" ElementType="Text" Guid="1adb40ee-fee7-44f6-b790-26ec4ce85059" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7c6c4c47-82db-48a6-85c3-1a8c2d2fb8bf" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="75bba91a-81cf-4289-9171-33b7c694442a" ContentHash="y7Q9ixc9H0-coHHHPVgdGQ" CvElementArea="1329, 790, 94, 50" CvTextArea="1342, 807, 68, 15" CvTextArgument="Acceder" CvType="Button" DesignTimeRectangle="1329, 790, 95, 50" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="61e7e1fc-ef96-4d3e-bfc9-5ddb0d81f535" InformativeScreenshot="f2d162c802c71563246d4196e8a1a62a.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/G0jIAX3cm0KvGnT9Fk-zWQ" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Button 'Button'" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable CVScreenId="75bba91a-81cf-4289-9171-33b7c694442a" ContentHash="y7Q9ixc9H0-coHHHPVgdGQ" CvElementArea="1329, 790, 94, 50" CvTextArea="1342, 807, 68, 15" CvTextArgument="Acceder" CvType="Button" DesignTimeRectangle="1329, 790, 95, 50" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="61e7e1fc-ef96-4d3e-bfc9-5ddb0d81f535" InformativeScreenshot="f2d162c802c71563246d4196e8a1a62a.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/G0jIAX3cm0KvGnT9Fk-zWQ" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <TryCatch.Try>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'push button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,195" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7c6c4c47-82db-48a6-85c3-1a8c2d2fb8bf" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable CVScreenId="93db6980-4f45-443c-bed8-f5a4cbd5f096" ContentHash="3sUFDbeVXkWqP80PPJ0fHw" CvElementArea="1330, 727, 38, 37" CvType="Button" DesignTimeRectangle="1331, 728, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Notificaciones' role='internal frame' /&gt;&lt;java name='Notificaciones' role='page tab' /&gt;&lt;java cls='LAF_XP_Button' idx='3' role='push button' /&gt;" Guid="2a3e0fd5-7e79-4b0b-9a16-321692bb89c4" InformativeScreenshot="207a74eb5ecc04204fc4603b10793ebf.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/J5-M7SL0GkCR_cZ_kN4lOA" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="Button 'push button'" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Target>
+                        <uix:TargetAnchorable CVScreenId="93db6980-4f45-443c-bed8-f5a4cbd5f096" ContentHash="3sUFDbeVXkWqP80PPJ0fHw" CvElementArea="1330, 727, 38, 37" CvType="Button" DesignTimeRectangle="1331, 728, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Notificaciones' role='internal frame' /&gt;&lt;java name='Notificaciones' role='page tab' /&gt;&lt;java cls='LAF_XP_Button' idx='3' role='push button' /&gt;" Guid="2a3e0fd5-7e79-4b0b-9a16-321692bb89c4" InformativeScreenshot="207a74eb5ecc04204fc4603b10793ebf.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/J5-M7SL0GkCR_cZ_kN4lOA" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:VerifyExecutionOptions.Target>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                </uix:NClick>
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Panel nofiticacaiones no econtrado" />
+                    </Sequence>
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+              <TryCatch.Finally>
+                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </TryCatch.Finally>
+            </TryCatch>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1096" ContentHash="uH0t8U7GUUOXDR4nJ1K-rg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOaSURBVFhH7VdJaBRBFG13FBfEBRS8iDcPQlQURQi44cGAS3W3BgVRggoBNxKT7k5aVPTgGqIiKKJoEMGDIkEQDSRTVVEniGAgxIOieJgkLgcN7vH9nkoy6ameRjIBD354TPf/79X/1bWO8d/+QesZxvaKsayicZpVKQssj9umI8ssTxwzXXHKdMRlyxU3gGuZQKzOcsRF05UnLJcfwfMe5vKNltc0b5OfnLqmtH4Mta2S6K3QbxhpO4kFSHoSiV6i0Z484LfpiVYUdpx5zfNLSpKjVLqBRgHm8C0QpEIN5BMpypFVhO/3DGdVzStB6A4J4vBL44tDt1klVlNOld4wWHlyEnNFg4YchW/gvzBdfgfPb0OxWEDbSDlVesMwPblUR4zADzRwG/NkIU0sjG01fN9CnFjYjlii0qMAl5frSBFAMl6upMYmLzEXBTVreLnhyErVhGFgGV3SkqLRZruykLT0FaA/A9/vECcG/HqQnAzL5J6eFIlfWKYHlJy+4H74/nYYHio5NSClhpALP02Hu0puME+UwPclxIkrqEXJ0YArnmsIufA9cwyh3w7f54z4J3zV0/itA94BWcODYWtX8mAOtIcJMfgOVCi5YXlyB977C/Dk2bV+chzzW0czV+6C72NfrB8pJachEB2hYBxyFZCyPblIhdA5vg0+TQG8U1GCSdSZTciJ6AI8cdeuTswkv+08mQVfS+DPRkcgJstZAB0kaBTPlLTXH12AIy707nLo/Sr4or5ufwGYA681BMxqXmM5icUb/KbZaOxmRizHEPAa5jeMT/txlEcWkDEEmMXY17NIH3CmM0WhpboCvi4VyzUHaovKEhPIzxxp4T2+ADiS2QTxA3iwvrJxBnFoXLHe61Vs8AU44lUgJsPLfS0JPcataA1xiv3miXivVf48fIGMjQgvV0NBBd5pObKYOHSJMD1+VMUGXQB9zUBMhkS+jgR00EQiDl3X1NFL/jwMgTwXiMmwWxVpSRBTI8TJdwG45G4NxGTpDYO/0RCHqoAuVi3mBGKy9IVU7tMQh6QA9P5Q1sV088GmydhszofIeS/AcviVddV8eiAMGxVB12ZsTE+VAJtRehUEBXjysPIPvA+kT7yvFKNO0JIlP2nhe680bZjQu9dVPJ4SiKKMsVsj6J+M7SWWIeFO+mfT66eJg4aeYQY/6l0dZLRX0F5C9wrLlaV0FCt/AQ2tXSWW0z8t6kQg+G99Zhh/ABSXqoNXVsP7AAAAAElFTkSuQmCC" InformativeScreenshot="48d159a8b9db325041a5f23045035031.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/G4OwclYkaEmRTLGnL_w0iw" Selector="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="FROXA - v6.2.1.6.4.7" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="24458320-0491-46d1-ac7a-436f55313f08" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,656" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Buscar...'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24458320-0491-46d1-ac7a-436f55313f08" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" ContentHash="0o4TWBvbXkOyGU55gq452w" CvTextArea="1516, 169, 63, 15" CvTextArgument="Buscar..." CvType="Text" DesignTimeRectangle="1516, 169, 63, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="d7f49992-0d5e-4601-b5da-7a77f1b26819" InformativeScreenshot="e6ffb843673879eb8dd610132d44433e.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/dU25jH8I50-moFUwJfYMwA" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" CvElementArea="1820, 162, 35, 29" CvType="Icon" DesignTimeRectangle="1818, 160, 39, 33" ElementType="Icon" Guid="04cc759f-cdd3-41e3-9319-2ea95b5fbeb9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAhCAYAAABa+rIoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVFhHY/g/iMGo48gFo44jF4w6jlwwdB337M23/7Uzz/0v6DtJEwwy+/HLr1DbMAFexy3defe/Y9YOmuKZ629CbcMEQzfkBhqMOo5cMHQd9+/f//93nnz6f/7mW5pgkNkgO3ABvI7be/oZ1uxPTQyyAxcYuo4b1NE60GDUceSCoeu40SbTaJOJBmDUceSCUceRC0YdRx74/x8A7Qjhi7YaaHMAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Label 'Buscar...'" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" ContentHash="0o4TWBvbXkOyGU55gq452w" CvTextArea="1516, 169, 63, 15" CvTextArgument="Buscar..." CvType="Text" DesignTimeRectangle="1516, 169, 63, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="d7f49992-0d5e-4601-b5da-7a77f1b26819" InformativeScreenshot="e6ffb843673879eb8dd610132d44433e.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/dU25jH8I50-moFUwJfYMwA" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" CvElementArea="1820, 162, 35, 29" CvType="Icon" DesignTimeRectangle="1818, 160, 39, 33" ElementType="Icon" Guid="04cc759f-cdd3-41e3-9319-2ea95b5fbeb9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAhCAYAAABa+rIoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVFhHY/g/iMGo48gFo44jF4w6jlwwdB337M23/7Uzz/0v6DtJEwwy+/HLr1DbMAFexy3defe/Y9YOmuKZ629CbcMEQzfkBhqMOo5cMHQd9+/f//93nnz6f/7mW5pgkNkgO3ABvI7be/oZ1uxPTQyyAxcYuo4b1NE60GDUceSCoeu40SbTaJOJBmDUceSCUceRC0YdRx74/x8A7Qjhi7YaaHMAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Buscar...'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="24458320-0491-46d1-ac7a-436f55313f08" Text="clasificacion art" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" ContentHash="0o4TWBvbXkOyGU55gq452w" CvTextArea="1516, 169, 63, 15" CvTextArgument="Buscar..." CvType="Text" DesignTimeRectangle="1516, 169, 63, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="d7f49992-0d5e-4601-b5da-7a77f1b26819" InformativeScreenshot="e6ffb843673879eb8dd610132d44433e.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/dU25jH8I50-moFUwJfYMwA" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" CvElementArea="1820, 162, 35, 29" CvType="Icon" DesignTimeRectangle="1818, 160, 39, 33" ElementType="Icon" Guid="04cc759f-cdd3-41e3-9319-2ea95b5fbeb9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAhCAYAAABa+rIoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVFhHY/g/iMGo48gFo44jF4w6jlwwdB337M23/7Uzz/0v6DtJEwwy+/HLr1DbMAFexy3defe/Y9YOmuKZ629CbcMEQzfkBhqMOo5cMHQd9+/f//93nnz6f/7mW5pgkNkgO3ABvI7be/oZ1uxPTQyyAxcYuo4b1NE60GDUceSCoeu40SbTaJOJBmDUceSCUceRC0YdRx74/x8A7Qjhi7YaaHMAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="Delay_3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1096" ContentHash="1AcLXPCsaEeUpbL4EGf63A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOaSURBVFhH7VdJaBRBFG13FBfEBRS8iDcPQlQURQi44cGAS3W3BgVRggoBNxKT7k5aVPTgGqIiKKJoEMGDIkEQDSRTVVEniGAgxIOieJgkLgcN7vH9nkoy6ameRjIBD354TPf/79X/1bWO8d/+QesZxvaKsayicZpVKQssj9umI8ssTxwzXXHKdMRlyxU3gGuZQKzOcsRF05UnLJcfwfMe5vKNltc0b5OfnLqmtH4Mta2S6K3QbxhpO4kFSHoSiV6i0Z484LfpiVYUdpx5zfNLSpKjVLqBRgHm8C0QpEIN5BMpypFVhO/3DGdVzStB6A4J4vBL44tDt1klVlNOld4wWHlyEnNFg4YchW/gvzBdfgfPb0OxWEDbSDlVesMwPblUR4zADzRwG/NkIU0sjG01fN9CnFjYjlii0qMAl5frSBFAMl6upMYmLzEXBTVreLnhyErVhGFgGV3SkqLRZruykLT0FaA/A9/vECcG/HqQnAzL5J6eFIlfWKYHlJy+4H74/nYYHio5NSClhpALP02Hu0puME+UwPclxIkrqEXJ0YArnmsIufA9cwyh3w7f54z4J3zV0/itA94BWcODYWtX8mAOtIcJMfgOVCi5YXlyB977C/Dk2bV+chzzW0czV+6C72NfrB8pJachEB2hYBxyFZCyPblIhdA5vg0+TQG8U1GCSdSZTciJ6AI8cdeuTswkv+08mQVfS+DPRkcgJstZAB0kaBTPlLTXH12AIy707nLo/Sr4or5ufwGYA681BMxqXmM5icUb/KbZaOxmRizHEPAa5jeMT/txlEcWkDEEmMXY17NIH3CmM0WhpboCvi4VyzUHaovKEhPIzxxp4T2+ADiS2QTxA3iwvrJxBnFoXLHe61Vs8AU44lUgJsPLfS0JPcataA1xiv3miXivVf48fIGMjQgvV0NBBd5pObKYOHSJMD1+VMUGXQB9zUBMhkS+jgR00EQiDl3X1NFL/jwMgTwXiMmwWxVpSRBTI8TJdwG45G4NxGTpDYO/0RCHqoAuVi3mBGKy9IVU7tMQh6QA9P5Q1sV088GmydhszofIeS/AcviVddV8eiAMGxVB12ZsTE+VAJtRehUEBXjysPIPvA+kT7yvFKNO0JIlP2nhe680bZjQu9dVPJ4SiKKMsVsj6J+M7SWWIeFO+mfT66eJg4aeYQY/6l0dZLRX0F5C9wrLlaV0FCt/AQ2tXSWW0z8t6kQg+G99Zhh/ABSXqoNXVsP7AAAAAElFTkSuQmCC" InformativeScreenshot="1348245d0a5d7fa9627ea398cac6bbf0.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/xy58dvtRR0WW-hPTntPK4Q" Selector="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="c2b0acfc-a972-4d29-96ce-ffc2ed503055" DisplayName="CV Screen Scope 'AWT component'" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
+      <p:CVScope.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DesignTimeCacheId="aa4d523e-bdec-4b2c-9a2b-10f013ea09f1" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="c22c0878043552a7753a9855b2529ff3" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+              <p:CvClickWithDescriptor.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </p:CvClickWithDescriptor.CursorPosition>
+              <p:CvClickWithDescriptor.Descriptor>
+                <InArgument x:TypeArguments="uc:CvDescriptor">
+                  <CSharpValue x:TypeArguments="uc:CvDescriptor" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Target: Text 'Clasificación Artículos' (9,170,159,16)"</CSharpValue>
+                </InArgument>
+              </p:CvClickWithDescriptor.Descriptor>
+              <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                <uc:CvDescriptor Id="8ac4a045-a926-429e-9d0a-f0bcc375be02">
+                  <uc:CvDescriptor.Target>
+                    <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="9, 170, 159, 16" ElementType="Text" Text="Clasificación Artículos" />
+                  </uc:CvDescriptor.Target>
+                </uc:CvDescriptor>
+              </p:CvClickWithDescriptor.DesignTimeDescriptor>
+              <p:CvClickWithDescriptor.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="29799ef3-592e-4b78-8760-40189a3159f6">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </p:CvClickWithDescriptor.Target>
+            </p:CvClickWithDescriptor>
+          </Sequence>
+        </ActivityAction>
+      </p:CVScope.Body>
+      <p:CVScope.DesignTimeCache>
+        <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+      </p:CVScope.DesignTimeCache>
+      <p:CVScope.DesignTimeCacheContainer>
+        <uc:CvCacheContainer>
+          <uc:CvCacheContainer.Caches>
+            <scg:List x:TypeArguments="uc:CVCache" Capacity="2">
+              <uc:CVCache DataSent="False" DisplayName="Screen CV Click - 'Clasificaci " Id="aa4d523e-bdec-4b2c-9a2b-10f013ea09f1" InformativeScreenshot="a26bd452aba2bbb9e36415dcd1cb1cfe" LogicalPosition="1460, 133" OcrText="İ ALEXEY SUZDALENKO 29/10/2025 clasificacion art X Logística - Almacenes Clasificación Artículos XA_FAMILIAS_ART 1" Position="1460, 133" ScreenshotGuid="74e6a8ed-0f72-4652-94f8-1e003c8e5894" ServerVersion="24.10.5.1">
+                <uc:CVCache.CvAnchorRelations>
+                  <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
+                    <uc:AnchorRelationInfo IsTargetText="False" Target="12">
+                      <uc:AnchorRelationInfo.Anchors>
+                        <x:Array Type="x:Int32">
+                          <x:Int32>4</x:Int32>
+                          <x:Int32>5</x:Int32>
+                        </x:Array>
+                      </uc:AnchorRelationInfo.Anchors>
+                    </uc:AnchorRelationInfo>
+                  </scg:List>
+                </uc:CVCache.CvAnchorRelations>
+                <uc:CVCache.CvUiElements>
+                  <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="16">
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="7, 115, 36, 32" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="268, 61, 35, 29" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="214, 796, 35, 35" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="6, 793, 39, 39" />
+                    <uc:CvElementInfo Category="Icon" Description="windows logo icon" Region="311, 58, 35, 34" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="4, 11, 28, 28" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="260, 795, 37, 36" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="169, 167, 27, 30" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="308, 797, 34, 33" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="275, 4, 40, 40" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="323, 6, 21, 36" />
+                    <uc:CvElementInfo Category="CloseButton" Description="CloseButton" Region="229, 62, 30, 30" />
+                    <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="1, 50, 258, 62" />
+                    <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="230, 62, 28, 30" />
+                    <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="0, 50, 255, 61" />
+                  </scg:List>
+                </uc:CVCache.CvUiElements>
+                <uc:CVCache.OcrTexts>
+                  <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="14">
+                    <uc:OcrTextInfo Region="14, 17, 6, 14" Text="İ" />
+                    <uc:OcrTextInfo Region="100, 9, 63, 15" Text="ALEXEY" />
+                    <uc:OcrTextInfo Region="163, 10, 105, 14" Text="SUZDALENKO" />
+                    <uc:OcrTextInfo Region="195, 25, 73, 13" Text="29/10/2025" />
+                    <uc:OcrTextInfo Region="3, 72, 89, 15" Text="clasificacion" />
+                    <uc:OcrTextInfo Region="94, 72, 22, 15" Text="art" />
+                    <uc:OcrTextInfo Region="233, 67, 23, 21" Text="X" />
+                    <uc:OcrTextInfo Region="53, 125, 74, 18" Text="Logística" />
+                    <uc:OcrTextInfo Region="129, 128, 8, 12" Text="-" />
+                    <uc:OcrTextInfo Region="138, 125, 88, 15" Text="Almacenes" />
+                    <uc:OcrTextInfo Region="9, 170, 92, 16" Text="Clasificación" />
+                    <uc:OcrTextInfo Region="103, 171, 65, 15" Text="Artículos" />
+                    <uc:OcrTextInfo Region="196, 171, 119, 16" Text="XA_FAMILIAS_ART" />
+                    <uc:OcrTextInfo Region="26, 799, 8, 10" Text="1" />
+                  </scg:List>
+                </uc:CVCache.OcrTexts>
+              </uc:CVCache>
+              <uc:CVCache DataSent="False" DisplayName="Main Screen" Id="c2b0acfc-a972-4d29-96ce-ffc2ed503055" InformativeScreenshot="8e60b45aa2022b6504930cac64263b2f" LogicalPosition="1494, 236" OcrText="İ ALEXEY SUZDALENKO 29/10/2025 clasificacion art X Logística - Almacenes Clasificación Artículos FROXA_FAMILIAS_ART Últimas Búsquedas Clasificación Artículos FROXA_FAMILIAS_ART 1" Position="1494, 236" ScreenshotGuid="e811f461-fcf9-4eca-bc53-0133ae39024e" ServerVersion="24.10.5.1">
+                <uc:CVCache.CvAnchorRelations>
+                  <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
+                    <uc:AnchorRelationInfo IsTargetText="False" Target="13">
+                      <uc:AnchorRelationInfo.Anchors>
+                        <x:Array Type="x:Int32">
+                          <x:Int32>4</x:Int32>
+                          <x:Int32>5</x:Int32>
+                        </x:Array>
+                      </uc:AnchorRelationInfo.Anchors>
+                    </uc:AnchorRelationInfo>
+                  </scg:List>
+                </uc:CVCache.CvAnchorRelations>
+                <uc:CVCache.CvTables>
+                  <x:Array Type="uc:CvTableInfo">
+                    <uc:CvTableInfo>
+                      <uc:CvTableInfo.Columns>
+                        <x:Array Type="x:Int32">
+                          <x:Int32>1</x:Int32>
+                          <x:Int32>220</x:Int32>
+                          <x:Int32>398</x:Int32>
+                        </x:Array>
+                      </uc:CvTableInfo.Columns>
+                      <uc:CvTableInfo.Rows>
+                        <x:Array Type="x:Int32">
+                          <x:Int32>198</x:Int32>
+                          <x:Int32>243</x:Int32>
+                          <x:Int32>289</x:Int32>
+                        </x:Array>
+                      </uc:CvTableInfo.Rows>
+                    </uc:CvTableInfo>
+                  </x:Array>
+                </uc:CVCache.CvTables>
+                <uc:CVCache.CvUiElements>
+                  <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="32">
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="7, 115, 35, 32" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="315, 61, 34, 29" />
+                    <uc:CvElementInfo Category="Icon" Description="save icon" Region="169, 257, 27, 29" />
+                    <uc:CvElementInfo Category="Icon" Description="pen on notebook icon" Region="264, 770, 35, 35" />
+                    <uc:CvElementInfo Category="Icon" Description="windows logo icon" Region="360, 58, 34, 34" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="169, 166, 27, 30" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="7, 767, 38, 38" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="311, 769, 37, 36" />
+                    <uc:CvElementInfo Category="Icon" Description="clock icon" Region="4, 11, 28, 28" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="326, 4, 40, 41" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="359, 770, 34, 34" />
+                    <uc:CvElementInfo Category="CloseButton" Description="CloseButton" Region="275, 62, 30, 30" />
+                    <uc:CvElementInfo Category="Icon" Description="Icon" Region="373, 6, 22, 37" />
+                    <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="1, 49, 307, 63" />
+                    <uc:CvElementInfo Category="Cell" Description="Cell" Region="1, 198, 219, 45" />
+                    <uc:CvElementInfo Category="Cell" Description="Cell" Region="1, 243, 219, 46" />
+                    <uc:CvElementInfo Category="Cell" Description="Cell" Region="220, 198, 178, 45" />
+                    <uc:CvElementInfo Category="Cell" Description="Cell" Region="220, 243, 178, 46" />
+                    <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="276, 62, 28, 30" />
+                  </scg:List>
+                </uc:CVCache.CvUiElements>
+                <uc:CVCache.OcrTexts>
+                  <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="19">
+                    <uc:OcrTextInfo Region="14, 17, 6, 14" Text="İ" />
+                    <uc:OcrTextInfo Region="149, 10, 63, 14" Text="ALEXEY" />
+                    <uc:OcrTextInfo Region="213, 10, 105, 14" Text="SUZDALENKO" />
+                    <uc:OcrTextInfo Region="245, 25, 73, 13" Text="29/10/2025" />
+                    <uc:OcrTextInfo Region="3, 72, 89, 15" Text="clasificacion" />
+                    <uc:OcrTextInfo Region="94, 72, 22, 15" Text="art" />
+                    <uc:OcrTextInfo Region="279, 67, 23, 21" Text="X" />
+                    <uc:OcrTextInfo Region="53, 125, 74, 18" Text="Logística" />
+                    <uc:OcrTextInfo Region="129, 127, 8, 14" Text="-" />
+                    <uc:OcrTextInfo Region="138, 125, 88, 15" Text="Almacenes" />
+                    <uc:OcrTextInfo Region="9, 171, 92, 15" Text="Clasificación" />
+                    <uc:OcrTextInfo Region="103, 171, 65, 15" Text="Artículos" />
+                    <uc:OcrTextInfo Region="220, 172, 146, 15" Text="FROXA_FAMILIAS_ART" />
+                    <uc:OcrTextInfo Region="4, 212, 60, 17" Text="Últimas" />
+                    <uc:OcrTextInfo Region="67, 214, 90, 18" Text="Búsquedas" />
+                    <uc:OcrTextInfo Region="9, 261, 92, 15" Text="Clasificación" />
+                    <uc:OcrTextInfo Region="103, 261, 65, 15" Text="Artículos" />
+                    <uc:OcrTextInfo Region="220, 261, 146, 16" Text="FROXA_FAMILIAS_ART" />
+                    <uc:OcrTextInfo Region="26, 773, 7, 10" Text="1" />
+                  </scg:List>
+                </uc:CVCache.OcrTexts>
+              </uc:CVCache>
+            </scg:List>
+          </uc:CvCacheContainer.Caches>
+        </uc:CvCacheContainer>
+      </p:CVScope.DesignTimeCacheContainer>
+      <p:CVScope.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+          <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="400,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000">
+            <p1:UiPathScreenOCR.Image>
+              <InArgument x:TypeArguments="sd:Image">
+                <CSharpValue x:TypeArguments="sd:Image" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">Image</CSharpValue>
+              </InArgument>
+            </p1:UiPathScreenOCR.Image>
+          </p1:UiPathScreenOCR>
+        </ActivityFunc>
+      </p:CVScope.OCREngine>
+      <p:CVScope.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a2f4cbb8-8a99-43a4-9cd0-046bcf74e56c" InformativeScreenshot="74d6fed31ab3af540059da8f57ec8918" Selector="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;&lt;java cls='Graphics2dRenderWidget' idx='2' role='AWT component' /&gt;" WaitForReady="INTERACTIVE">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+        </ui:Target>
+      </p:CVScope.Target>
+      <p:CVScope.UseLocalServer>
+        <InArgument x:TypeArguments="x:Boolean" />
+      </p:CVScope.UseLocalServer>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </p:CVScope>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="FROXA - v6.2.1.6.4.7(4)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1711" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="1aa35b6e-1724-4629-a0a9-f320a3b3cef2" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1410" sap2010:WorkflowViewState.IdRef="Sequence_10">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Int32" Name="i">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:Int32" />
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(F7)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Button 'Button 'Introducir Consulta (F7)'(1)'" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable CVScreenId="84e6ebf1-08d8-4fbf-ad6c-9c475a48ff83" ContentHash="VG50k8KmckeLe0HoaCwgMw" CvElementArea="524, 66, 30, 30" CvType="Icon" DesignTimeRectangle="520, 64, 40, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java cls='ToolBar' idx='12' role='tool bar' /&gt;&lt;java name='Ejecutar Consulta (F8)' role='push button' /&gt;" Guid="2f1d9a56-675e-40ab-bf10-b4c4bf9c085b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM1SURBVFhH7db5S9NxHMfx/ot+iJAg+qGfUrTEIHVKkJZ5ZWqWm8e8Im88OtTUzB0eieaFTrTlNOeRZJKKmuQxj0jnUZg6DxD6H15tg8bm3vrdx7VA2g8P2L7y/byeftlgp7b3fuEksQfbmj3Y1uzBtvZ/BW9o9jGiWsWbgTk0dn9BTc8MqpQzqO5RobZXhZaBBbQPLWDy20/y/uNgDl7f2kfLexXEnSqUfdxA5fCuRcoHNyHtmkfvZzW2dumzLcEU/GlqBaIeNRnEQtqrhmppk9zgwhQs7lslA45D1DFDbnBhCi7oWCLHjyOjforc4MIULBBNoli5RgawyJHNgi+ZIze4sAVXLENQtohY8TiymqZRNqghgyglXYuYfeuC8VYPdMliUd+YB82SEpp1Fbl1GPZgI/wKNfiiKUSLxiGUjCKhfMwgTjqGGPEoosQTEEjmUfi6DZudp80pzzFFWxXMQimLIoM1c1Xk1mGYgiNFM2QMl+jKRSwrLpjFbg0FkztHYQr2TWxAZOk0GXWUolqZWeyK3AHbm2py5yhMwZ6CKnhpBaS1IeL5MPjSr2TgQX0tEWbBmTmJ5AYX5mBjPMEr+MTXISC1FUHaf+JOdhdCcpRa3frXQZkKBKc2Y7X9rEmsvMJbfz+1wcWqYEukZT80if2hOIOolFz936gNLkzBXvxysyAuuqdpHPxHf40rucGFKdgtKE0bXUaGHWa+9bxZ7LL2C3cjPJrc4MIUfMlXCKdbcfAIfQxvvgg8fiUZeZCfsBTpRh+N5Ec++rOoDS7MwcacbgrhFpgK97vaz2TYM/Du5cPrfhG8IorhGZ4Pj7A8XAvNhmtACnIzrutj5RJHw/3UBhergll8qL6IWZkDrgYIDNeoDS5MwZdvJ5hEWMo75IH+6QqE/oZr7iHJ5AYXpuAGeT+c/eJNYizxNMMb1YWuhvdX/JMwMvEPfl7qfF/fQVpBlf4JOd6MMwk7TFOJM1z8YsALTUX2i1r9GdTZlmAONqYbblYMIE/SBGGWGPz0EgTGPjHQXXspEaP7XR3Ua1vkGaysCrbIzh59/ZhsH/yX2YNtzR5saycvmJc0iJPkhAUP4jcIXRecar2/dQAAAABJRU5ErkJggg==" InformativeScreenshot="1c753456b999cc2339a4b507a0129763.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/FIbL0pUMDkyT1FR8dYm7tQ" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="84e6ebf1-08d8-4fbf-ad6c-9c475a48ff83" CvTextArea="68, 104, 178, 16" CvTextArgument="Clasificación Artículos" CvType="Text" DesignTimeRectangle="48, 100, 1464, 25" FuzzySelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;java cls='TitleBar' role='panel' check:fulltext='Clasificación Artículos' /&gt;" Guid="c6f1b7d4-a5d6-4962-a401-78006f4eea5c" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(F8)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Button 'Button 'Introducir Consulta (F7)'(1)'" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable CVScreenId="84e6ebf1-08d8-4fbf-ad6c-9c475a48ff83" ContentHash="VG50k8KmckeLe0HoaCwgMw" CvElementArea="524, 66, 30, 30" CvType="Icon" DesignTimeRectangle="520, 64, 40, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java cls='ToolBar' idx='12' role='tool bar' /&gt;&lt;java name='Ejecutar Consulta (F8)' role='push button' /&gt;" Guid="2f1d9a56-675e-40ab-bf10-b4c4bf9c085b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM1SURBVFhH7db5S9NxHMfx/ot+iJAg+qGfUrTEIHVKkJZ5ZWqWm8e8Im88OtTUzB0eieaFTrTlNOeRZJKKmuQxj0jnUZg6DxD6H15tg8bm3vrdx7VA2g8P2L7y/byeftlgp7b3fuEksQfbmj3Y1uzBtvZ/BW9o9jGiWsWbgTk0dn9BTc8MqpQzqO5RobZXhZaBBbQPLWDy20/y/uNgDl7f2kfLexXEnSqUfdxA5fCuRcoHNyHtmkfvZzW2dumzLcEU/GlqBaIeNRnEQtqrhmppk9zgwhQs7lslA45D1DFDbnBhCi7oWCLHjyOjforc4MIULBBNoli5RgawyJHNgi+ZIze4sAVXLENQtohY8TiymqZRNqghgyglXYuYfeuC8VYPdMliUd+YB82SEpp1Fbl1GPZgI/wKNfiiKUSLxiGUjCKhfMwgTjqGGPEoosQTEEjmUfi6DZudp80pzzFFWxXMQimLIoM1c1Xk1mGYgiNFM2QMl+jKRSwrLpjFbg0FkztHYQr2TWxAZOk0GXWUolqZWeyK3AHbm2py5yhMwZ6CKnhpBaS1IeL5MPjSr2TgQX0tEWbBmTmJ5AYX5mBjPMEr+MTXISC1FUHaf+JOdhdCcpRa3frXQZkKBKc2Y7X9rEmsvMJbfz+1wcWqYEukZT80if2hOIOolFz936gNLkzBXvxysyAuuqdpHPxHf40rucGFKdgtKE0bXUaGHWa+9bxZ7LL2C3cjPJrc4MIUfMlXCKdbcfAIfQxvvgg8fiUZeZCfsBTpRh+N5Ec++rOoDS7MwcacbgrhFpgK97vaz2TYM/Du5cPrfhG8IorhGZ4Pj7A8XAvNhmtACnIzrutj5RJHw/3UBhergll8qL6IWZkDrgYIDNeoDS5MwZdvJ5hEWMo75IH+6QqE/oZr7iHJ5AYXpuAGeT+c/eJNYizxNMMb1YWuhvdX/JMwMvEPfl7qfF/fQVpBlf4JOd6MMwk7TFOJM1z8YsALTUX2i1r9GdTZlmAONqYbblYMIE/SBGGWGPz0EgTGPjHQXXspEaP7XR3Ua1vkGaysCrbIzh59/ZhsH/yX2YNtzR5saycvmJc0iJPkhAUP4jcIXRecar2/dQAAAABJRU5ErkJggg==" InformativeScreenshot="1c753456b999cc2339a4b507a0129763.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/FIbL0pUMDkyT1FR8dYm7tQ" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="84e6ebf1-08d8-4fbf-ad6c-9c475a48ff83" CvTextArea="68, 104, 178, 16" CvTextArgument="Clasificación Artículos" CvType="Text" DesignTimeRectangle="48, 100, 1464, 25" FuzzySelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;java cls='TitleBar' role='panel' check:fulltext='Clasificación Artículos' /&gt;" Guid="c6f1b7d4-a5d6-4962-a401-78006f4eea5c" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,741" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DisplayName="Get Text 'Número Tabla'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="1aa35b6e-1724-4629-a0a9-f320a3b3cef2" Version="V5">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable CVScreenId="27b81d4d-0dfd-4ab4-8668-3d037b7e5ecb" ContentHash="R5il1kF83kG-MHzQKiuscg" CvType="AnyWordGroup" DesignTimeRectangle="58, 186, 141, 21" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' /&gt;&lt;java name='Froxa Familias Art' role='page tab' /&gt;&lt;java name='Número Tabla Necesario' role='text' /&gt;" Guid="da9cbd26-9492-4551-9791-fee514188174" InformativeScreenshot="0aeea6df6eadaf2c967840bfc4d54e64.png" IsResponsive="True" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/JxiJPg58TkezoduB2iAYvw" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="27b81d4d-0dfd-4ab4-8668-3d037b7e5ecb" CvTextArea="57, 167, 116, 16" CvTextArgument="Número Tabla" CvType="Text" DesignTimeRectangle="57, 167, 116, 16" ElementType="Text" Guid="b1ecf7ff-b863-487d-8c0c-af924c07258a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                    <uix:NGetText.TextString>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">currentValue</CSharpReference>
+                      </OutArgument>
+                    </uix:NGetText.TextString>
+                  </uix:NGetText>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(Down)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">
+                        <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">i</CSharpReference>
+                      </OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">
+                        <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">i+1</CSharpValue>
+                      </InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="WriteLine_2">
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">"currentValue="+currentValue</CSharpValue>
+                    </InArgument>
+                  </WriteLine>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">i &lt; 5</CSharpValue>
+              </ui:InterruptibleWhile.Condition>
+              <ui:InterruptibleWhile.CurrentIndex>
+                <OutArgument x:TypeArguments="x:Int32">
+                  <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">index</CSharpReference>
+                </OutArgument>
+              </ui:InterruptibleWhile.CurrentIndex>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InterruptibleWhile>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Crear Registro (F6)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1aa35b6e-1724-4629-a0a9-f320a3b3cef2" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="6ba8ded3-80e1-4e10-858a-782bb2ace14f" ContentHash="tD_jhGsFckq8O4oO2YIYZw" CvElementArea="432, 66, 31, 30" CvType="Icon" DesignTimeRectangle="428, 64, 40, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java cls='ToolBar' idx='12' role='tool bar' /&gt;&lt;java name='Crear Registro (F6)' role='push button' /&gt;" Guid="7fd4603d-6183-4889-bdd1-1128bba33335" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVFhH7dY/CsIwFMdxz+Xo6OgxdHD2FIJnEDoJrkUFi4ulDiqiQ7H+aRVE7/CkQocmj5KWRIj+hu/2IB8I5KUW319kUwCbDmDTAWy6/wavrwm5YZjrfHuys1XTCu6tPKpPnVwpmputGsAACwEMsNDvgoNLTMP9trCWN5bAXX/GzmY5h12p5aIM7m98CaOrMrcAcJUATvOO0QddVHM+kjDt5YSdzRpsAwqTB3smlzJYJbzDTAADLAQwwEJawYvoJP3GyiwFlbSCvxHApgPYdPaBGx2XbMoysEtvPCwr2q/6E+sAAAAASUVORK5CYII=" InformativeScreenshot="e152e6e323f4c1b6a0ea24fe42c31fe3.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/U4OWuFc2PE271CC6HeHREg" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="6ba8ded3-80e1-4e10-858a-782bb2ace14f" CvTextArea="71, 104, 175, 16" CvTextArgument="Clasificación Artículos" CvType="Text" DesignTimeRectangle="48, 100, 1464, 25" FuzzySelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;java cls='TitleBar' role='panel' check:fulltext='Clasificación Artículos' /&gt;" Guid="38b3a719-d7fb-465f-b183-c963f49f2dac" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'text Número Tabla Neces…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="1aa35b6e-1724-4629-a0a9-f320a3b3cef2" Text="7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="VqOGyH1Y-U2bh0KifTCNGw" DesignTimeRectangle="58, 276, 141, 21" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' /&gt;&lt;java name='Froxa Familias Art' role='page tab' /&gt;&lt;java idx='5' name='Número Tabla Necesario' role='text' /&gt;" Guid="5bd5bcf5-949c-4f3e-a0b6-9bc131a4c635" InformativeScreenshot="06d28d23ea525b4436267734073b13bf.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/ix7uhrx-l0iBE2iKtbhJJw" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,278" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(Tab)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1096" ContentHash="zWk9fEcRsUKO4Mai1eH0lg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOaSURBVFhH7VdJaBRBFG13FBfEBRS8iDcPQlQURQi44cGAS3W3BgVRggoBNxKT7k5aVPTgGqIiKKJoEMGDIkEQDSRTVVEniGAgxIOieJgkLgcN7vH9nkoy6ameRjIBD354TPf/79X/1bWO8d/+QesZxvaKsayicZpVKQssj9umI8ssTxwzXXHKdMRlyxU3gGuZQKzOcsRF05UnLJcfwfMe5vKNltc0b5OfnLqmtH4Mta2S6K3QbxhpO4kFSHoSiV6i0Z484LfpiVYUdpx5zfNLSpKjVLqBRgHm8C0QpEIN5BMpypFVhO/3DGdVzStB6A4J4vBL44tDt1klVlNOld4wWHlyEnNFg4YchW/gvzBdfgfPb0OxWEDbSDlVesMwPblUR4zADzRwG/NkIU0sjG01fN9CnFjYjlii0qMAl5frSBFAMl6upMYmLzEXBTVreLnhyErVhGFgGV3SkqLRZruykLT0FaA/A9/vECcG/HqQnAzL5J6eFIlfWKYHlJy+4H74/nYYHio5NSClhpALP02Hu0puME+UwPclxIkrqEXJ0YArnmsIufA9cwyh3w7f54z4J3zV0/itA94BWcODYWtX8mAOtIcJMfgOVCi5YXlyB977C/Dk2bV+chzzW0czV+6C72NfrB8pJachEB2hYBxyFZCyPblIhdA5vg0+TQG8U1GCSdSZTciJ6AI8cdeuTswkv+08mQVfS+DPRkcgJstZAB0kaBTPlLTXH12AIy707nLo/Sr4or5ufwGYA681BMxqXmM5icUb/KbZaOxmRizHEPAa5jeMT/txlEcWkDEEmMXY17NIH3CmM0WhpboCvi4VyzUHaovKEhPIzxxp4T2+ADiS2QTxA3iwvrJxBnFoXLHe61Vs8AU44lUgJsPLfS0JPcataA1xiv3miXivVf48fIGMjQgvV0NBBd5pObKYOHSJMD1+VMUGXQB9zUBMhkS+jgR00EQiDl3X1NFL/jwMgTwXiMmwWxVpSRBTI8TJdwG45G4NxGTpDYO/0RCHqoAuVi3mBGKy9IVU7tMQh6QA9P5Q1sV088GmydhszofIeS/AcviVddV8eiAMGxVB12ZsTE+VAJtRehUEBXjysPIPvA+kT7yvFKNO0JIlP2nhe680bZjQu9dVPJ4SiKKMsVsj6J+M7SWWIeFO+mfT66eJg4aeYQY/6l0dZLRX0F5C9wrLlaV0FCt/AQ2tXSWW0z8t6kQg+G99Zhh/ABSXqoNXVsP7AAAAAElFTkSuQmCC" InformativeScreenshot="fcd16fead54299b0e6b1b621781d2609.png" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/7L7o9oTRUEiSQM1E-jT0Zg" Selector="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <Delay Duration="00:22:05" sap:VirtualizedContainerService.HintSize="484,114" sap2010:WorkflowViewState.IdRef="Delay_5" />
+  </Sequence>
+</Activity>

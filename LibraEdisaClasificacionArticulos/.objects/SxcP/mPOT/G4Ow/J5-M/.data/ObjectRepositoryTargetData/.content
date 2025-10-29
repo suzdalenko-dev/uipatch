@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3sUFDbeVXkWqP80PPJ0fHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="93db6980-4f45-443c-bed8-f5a4cbd5f096" CvElementArea="1330, 727, 38, 37" CvType="Button" DesignTimeRectangle="1331, 728, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Notificaciones' role='internal frame' /&gt;&lt;java name='Notificaciones' role='page tab' /&gt;&lt;java cls='LAF_XP_Button' idx='3' role='push button' /&gt;" Guid="2a3e0fd5-7e79-4b0b-9a16-321692bb89c4" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="207a74eb5ecc04204fc4603b10793ebf.png" xmlns="">0Yh9dvBvExUmCOOaHJKVn3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

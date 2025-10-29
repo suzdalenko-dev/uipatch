@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button 'Ejecutar Consulta (F8)'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "c8gZMIaPU0KU7wDnz3Sp8A",
+  "Reference": "N6Q_bT1QBEGSoqD2MZ_FNA/c8gZMIaPU0KU7wDnz3Sp8A",
+  "ParentRef": "N6Q_bT1QBEGSoqD2MZ_FNA/7L7o9oTRUEiSQM1E-jT0Zg",
+  "Created": "2025-10-29T17:22:31.7409744Z",
+  "Updated": "2025-10-29T17:22:31.7409744Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

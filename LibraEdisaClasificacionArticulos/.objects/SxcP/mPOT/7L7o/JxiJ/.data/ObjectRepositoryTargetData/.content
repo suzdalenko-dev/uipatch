@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R5il1kF83kG-MHzQKiuscg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="27b81d4d-0dfd-4ab4-8668-3d037b7e5ecb" CvType="AnyWordGroup" DesignTimeRectangle="58, 186, 141, 21" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' /&gt;&lt;java name='Froxa Familias Art' role='page tab' /&gt;&lt;java name='Número Tabla Necesario' role='text' /&gt;" Guid="da9cbd26-9492-4551-9791-fee514188174" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="27b81d4d-0dfd-4ab4-8668-3d037b7e5ecb" CvTextArea="57, 167, 116, 16" CvTextArgument="Número Tabla" CvType="Text" DesignTimeRectangle="57, 167, 116, 16" ElementType="Text" Guid="b1ecf7ff-b863-487d-8c0c-af924c07258a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0aeea6df6eadaf2c967840bfc4d54e64.png" xmlns="">0NezwHzzUDEaMPTBLQGid-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

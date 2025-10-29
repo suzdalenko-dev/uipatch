@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0o4TWBvbXkOyGU55gq452w" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/dU25jH8I50-moFUwJfYMwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" CvTextArea="1516, 169, 63, 15" CvTextArgument="Buscar..." CvType="Text" DesignTimeRectangle="1516, 169, 63, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="d7f49992-0d5e-4601-b5da-7a77f1b26819" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8a0a862e-8136-46d0-8bf0-0dcca52c0ff6" CvElementArea="1820, 162, 35, 29" CvType="Icon" DesignTimeRectangle="1818, 160, 39, 33" ElementType="Icon" Guid="04cc759f-cdd3-41e3-9319-2ea95b5fbeb9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAhCAYAAABa+rIoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVFhHY/g/iMGo48gFo44jF4w6jlwwdB337M23/7Uzz/0v6DtJEwwy+/HLr1DbMAFexy3defe/Y9YOmuKZ629CbcMEQzfkBhqMOo5cMHQd9+/f//93nnz6f/7mW5pgkNkgO3ABvI7be/oZ1uxPTQyyAxcYuo4b1NE60GDUceSCoeu40SbTaJOJBmDUceSCUceRC0YdRx74/x8A7Qjhi7YaaHMAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e6ffb843673879eb8dd610132d44433e.png" xmlns="">0Ws7nw5usBEeeu-lOaUcTdA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

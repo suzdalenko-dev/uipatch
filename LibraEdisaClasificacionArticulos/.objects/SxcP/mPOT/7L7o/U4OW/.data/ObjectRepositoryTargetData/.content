@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tD_jhGsFckq8O4oO2YIYZw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6ba8ded3-80e1-4e10-858a-782bb2ace14f" CvElementArea="432, 66, 31, 30" CvType="Icon" DesignTimeRectangle="428, 64, 40, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;java cls='ToolBar' idx='12' role='tool bar' /&gt;&lt;java name='Crear Registro (F6)' role='push button' /&gt;" Guid="7fd4603d-6183-4889-bdd1-1128bba33335" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVFhH7dY/CsIwFMdxz+Xo6OgxdHD2FIJnEDoJrkUFi4ulDiqiQ7H+aRVE7/CkQocmj5KWRIj+hu/2IB8I5KUW319kUwCbDmDTAWy6/wavrwm5YZjrfHuys1XTCu6tPKpPnVwpmputGsAACwEMsNDvgoNLTMP9trCWN5bAXX/GzmY5h12p5aIM7m98CaOrMrcAcJUATvOO0QddVHM+kjDt5YSdzRpsAwqTB3smlzJYJbzDTAADLAQwwEJawYvoJP3GyiwFlbSCvxHApgPYdPaBGx2XbMoysEtvPCwr2q/6E+sAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6ba8ded3-80e1-4e10-858a-782bb2ace14f" CvTextArea="71, 104, 175, 16" CvTextArgument="Clasificación Artículos" CvType="Text" DesignTimeRectangle="48, 100, 1464, 25" FuzzySelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;java cls='TitleBar' role='panel' check:fulltext='Clasificación Artículos' /&gt;" Guid="38b3a719-d7fb-465f-b183-c963f49f2dac" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e152e6e323f4c1b6a0ea24fe42c31fe3.png" xmlns="">0OwdUlTMMeEe59gM2YoAhwA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

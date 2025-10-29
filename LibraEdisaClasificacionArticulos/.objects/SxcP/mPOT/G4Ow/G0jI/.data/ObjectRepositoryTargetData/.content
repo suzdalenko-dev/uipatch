@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="y7Q9ixc9H0-coHHHPVgdGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="75bba91a-81cf-4289-9171-33b7c694442a" CvElementArea="1329, 790, 94, 50" CvTextArea="1342, 807, 68, 15" CvTextArgument="Acceder" CvType="Button" DesignTimeRectangle="1329, 790, 95, 50" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="61e7e1fc-ef96-4d3e-bfc9-5ddb0d81f535" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f2d162c802c71563246d4196e8a1a62a.png" xmlns="">0tlJk2vmsXUihzPiIEgq80w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

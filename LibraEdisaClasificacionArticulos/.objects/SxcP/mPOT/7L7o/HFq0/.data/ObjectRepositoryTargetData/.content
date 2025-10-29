@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WovBAhaiLEa_rExCEidqcg" Reference="N6Q_bT1QBEGSoqD2MZ_FNA/HFq0IO6lG0epljWAMd_pAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="806542e8-afd1-441f-a56e-49d9e6252eee" CvElementArea="524, 66, 30, 30" CvType="Icon" DesignTimeRectangle="518, 62, 44, 40" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="82681cf6-5426-4bb3-bc0d-27e89ee58a38" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM3SURBVFhH7db5S9NxHMfx/ot+iJAg+qGfUrTEII+NIDVzaqZmuXnMo8hr4tGhpmZu80o0r3SimUfOI8kkFTVJ3TwinUdh6jwg7H94NQeNzb31u4+2QNoPD9i+8v28nn7ZYCc2tn/hOLEFW5st2Npswdb2fwWvan9iSL2E133TqO38jIouFcqUKpR3qVHZrUZD3yxaBmYx/vUHef9hMAevrP9Ewzs1ZO1qFH1YRenglkWK+9dQ2DGD7k8arG/RZ1uCKfjjxCKkXRoyiEVhtwbq+TVygwtTsKxniQw4DGmbitzgwhSc3TZPjh+GpHqC3ODCFCySjiNPuUwGsEhXTEEonyY3uLAFlyxAVDSHKNkoUusmUdSvJYMo+R1zmHrjhNFGN3QoolBdmwntvBLaFTW5tR/2YCPCEg2E0glESEchlg8jtnjEILpwBJGyYYTLxiCSzyDnZRPW2k+aU55hij5SMAulIpwM1k6XkVv7YQoOk6rIGC4RpXNYaD1nFrs+EEDuHIQp2CuuBmEFk2TUQXIrFWaxi8122FjTkDsHYQp2F5WBpyNIakLo00EIC7+QgXv1NISaBaekx5EbXJiDjXmIXsAzpgqCxEb46/6Jm2kdCExX6nTqX/untCIgsR5LLadNYptL+Pr7qQ0uRwq2RFLafZPY762nEJ6Qof8btcGFKZgnLDYL4rL7NI2D/+itcCY3uDAFu/gn6aKLyLD9zDSeNYtd0H3hroVEkBtcmIIveInhcD0abkEPwRdK4SEsJSP38hEXINnooxH/wFN/FrXBhTnYmIO3GC5+iXC9pftMBj+Bx+0s8O7kgheaB/eQLLgFZ+JKUBqcBQnIkFzVxzbL7Q33UxtcjhTM4n35eUwp7HBZIDJcoza4MAVfvBFrEmEpfuBd/dMViX0N11wD48kNLkzBNc29cPSJMYmxxGMJH+U5zob3l3zvYWjsH/y83PVtZRNJ2WX6J2TvHW0Stp+6fEc4+UTCIygRac8q9WdQZ1uCOdjY7nB9ax8y5XUQp8ogTM6HX9Qjg91rz+UydL6tgmZ5nTyD1ZGCLbK5TV8/JOsH/2W2YGuzBVvb8QuWvNrBcXLMgnfwG8rCSyxNUGebAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='FROXA - v6.2.1.6.4.7' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="074fee30-dc47-4eb0-8c0c-c3d356763e16" CvTextArea="71, 104, 175, 16" CvTextArgument="Clasificación Artículos" CvType="Text" DesignTimeRectangle="48, 100, 1480, 25" FuzzySelectorArgument="&lt;java name='Clasificación Artículos' role='internal frame' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;java cls='TitleBar' role='panel' check:fulltext='Clasificación Artículos' /&gt;" Guid="a82bb39b-95f4-4dd5-920f-c6e30488fd66" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="19" Y="-18" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d448be7122a4585ecf2a8d3e75d43af6.png" xmlns="">08pF5EfGd4UudahqvIyV51g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

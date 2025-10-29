@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WYhN12cogkGpXWX4iFajvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="47cb1009-a2bb-4f2f-8413-1e13f076e3d7" CvElementArea="1028, 683, 482, 42" CvType="InputBox" DesignTimeRectangle="1028, 683, 482, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="8b86f927-6ba6-4fbe-ad28-5620e43b605f" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="47cb1009-a2bb-4f2f-8413-1e13f076e3d7" CvTextArea="1040, 694, 57, 15" CvTextArgument="Usuario" CvType="Text" DesignTimeRectangle="1040, 694, 57, 15" ElementType="Text" Guid="dda8d7de-1026-4fab-aef4-d27d27552770" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7442d6470b9a9f7a33ae502bc4052a29.png" xmlns="">09wZwGW11tUyXzZh-4DjHog</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

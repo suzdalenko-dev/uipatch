@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button 'Introducir Consulta (F7)'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "g8UEkcV6IUCahIJuI_a1_Q",
+  "Reference": "N6Q_bT1QBEGSoqD2MZ_FNA/g8UEkcV6IUCahIJuI_a1_Q",
+  "ParentRef": "N6Q_bT1QBEGSoqD2MZ_FNA/7L7o9oTRUEiSQM1E-jT0Zg",
+  "Created": "2025-10-29T17:22:07.3498096Z",
+  "Updated": "2025-10-29T17:22:07.3498096Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

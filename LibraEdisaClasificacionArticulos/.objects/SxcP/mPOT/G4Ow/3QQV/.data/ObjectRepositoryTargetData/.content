@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="08k8LSdqQ0m1Rub4kGjOuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 64, 1920, 1024" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="4eb61188-7df5-4fb4-b1e7-c7d1b4a035bf" NativeTextArgument="Calculadora" ScopeSelectorArgument="&lt;wnd app='libra.exe' cls='SunAwtFrame' title='LIBRA EDISA * (Certificado autofirmado - Certificado no se corre*' /&gt;" SearchSteps="TextNative" TargetType="NativeTextBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="47cb1009-a2bb-4f2f-8413-1e13f076e3d7" CvElementArea="1028, 683, 482, 42" CvType="InputBox" DesignTimeRectangle="1029, 681, 483, 43" ElementType="InputBox" Guid="7eb79b78-5b33-40c2-90fd-8c9b2bc0e08c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="50f8b0114fe00fc920ae1fcb916372a4.png" xmlns="">0ogZx1myla0CS7FufzeUZ1g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
